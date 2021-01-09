@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  background: linear-gradient(to left, #98ec98, rgb(108, 182, 108));
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  color: rgb(15, 15, 148);
+}
+
+h1 {
+  margin: 1rem 0 1rem;
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.cup {
+  background: #fff;
+  border: 2px solid#57a7c2;
+  width: 200px;
+  height: 330px;
+  border-radius: 5px 5px 30% 30%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  overflow: hidden;
+}
+
+.remained {
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.text {
+  margin: 1.5rem 0;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 280px;
+}
+
+.cup.cup-small {
+  cursor: pointer;
+  background: #fff;
+  height: 70px;
+  width: 50px;
+  border-radius: 2px 2px 30% 30%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0rem 0.6rem 0.6rem;
+  line-height: 70px;
+  flex: 0 0 auto;
+  transition: 0.3s ease;
+}
+
+.cup.full {
+  background: #57a7c2;
+}
+
+.liters {
+  font-weight: bold;
+}
+
+.percentage {
+  background: #57a7c2;
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0;
+  transition: 0.3s ease;
+}
